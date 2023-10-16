@@ -1,0 +1,16 @@
+/********************************************************************/
+/*     estilo para styledtext.html                                  */
+/*     autora: Sandra PIrpamer                                      */
+/*     version: 1.0                                                 */
+/*     comentario: algo                                             */
+/********************************************************************/
+
+body {background-color: black;
+            color: white;}
+        h2 {color: salmon;}  
+        /*selector de id, individual*/
+        #encabezadop1 {text-align: right;}
+        /*selector de class, colectivo*/
+        .centrado {text-align: center;}
+        /*selector contextual, añade context, más de un selector separados con espacios*/
+        .centrado b {color: red}
